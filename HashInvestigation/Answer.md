@@ -57,6 +57,10 @@ Stupid method that I have used is, check hashes of the files that are not found,
 
 # Question 6
 <code>
+  md5sum * > md5original
+</code>
+</br>
+<code>
   grep -f hashset-bad md5original
 </code>
 
@@ -77,7 +81,7 @@ Stupid method that I have used is, check hashes of the files that are not found,
 
 # Question 7
 <code>
-  grep -vf hashset-bad md5sum > notmalware; grep -vf ../hashset-good sha256sum > notgood; grep -vf notmalware notgood
+  grep -vf hashset-bad md5sum > notmalware; grep -vf hashset-good sha256sum > notgood; grep -vf notmalware notgood
 </code>
 
 - 4d66fe7f15c4ca119e7a1a5e9cead03d238c052e068b853146cc0f677c5057b8  f0012
