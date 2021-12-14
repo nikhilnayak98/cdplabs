@@ -1,2 +1,2 @@
-# Croptography and Data Protection
-CDP Excercises
+# Cryptography and Data Protection
+CDP Lab Work
