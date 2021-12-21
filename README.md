@@ -1,2 +1,2 @@
-# Cryptography and Data Protection
+# Cryptosystems and Data Protection
 CDP Lab Work
